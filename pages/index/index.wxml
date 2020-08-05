@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view>
+	<text>手语舞</text>
+	<text class="iconfont icon-shoucang"></text>
+</view>
