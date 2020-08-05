@@ -7,14 +7,36 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		
+		swiperList:[],
+		a:1123
 	},
 
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
-		
+		// 发送异步请求获取轮播图数据
+		var that = this
+		wx.request({
+			url: 'https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata',
+			header:{'content-type':'application/json'},
+			method:'GET',
+			dataType:'json',
+			responseType:'text',
+			success:(result)=>{
+					this.setData({
+						swiperList:result.data.message
+					})
+					console.log(123)
+					console.log(this.data.swiperList)
+			},
+			fail:()=>{
+
+			},
+			complete:()=>{
+
+			}
+		})
 	},
 
 	/**
