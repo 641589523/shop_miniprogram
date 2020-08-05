@@ -1,4 +1,4 @@
 /**index.wxss**/
 view{
-	color: var(--themeColor);
+	/* color: var(--themeColor); */
 }

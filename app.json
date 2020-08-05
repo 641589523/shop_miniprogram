@@ -13,18 +13,17 @@
     "pages/login/login",
     "pages/auth/auth",
     "pages/pay/pay"
-    
 	],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#eb4450",
     "navigationBarTitleText": "优购商城",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "tabBar":{
           "color":"#999", 
           "selectedColor":"#ff2d4a", 
-          "backgroundColor":"#000", 
+          "backgroundColor":"#FFF", 
           "borderStyle":"black", 
           "position":"bottom", 
           "list":[{ 

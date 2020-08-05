@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view>
-	<text>手语舞</text>
-	<text class="iconfont icon-shoucang"></text>
+<!-- 搜索框  开始 -->
+<searchInput></searchInput>
+
+<!-- 搜索框 结束 -->
 </view>
