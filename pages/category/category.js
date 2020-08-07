@@ -75,14 +75,12 @@ Page({
    */
   getCates() {
     request({
-      url: 'https://api-hmugo-web.itheima.net/api/public/v1/categories'
+      url: 'categories'
     }).then(result => {
       this.Cates = result.data.message
-      let leftMenuList = this.Cates.map(v=>v.cat_name)
-      let rightContent = this.Cates[0].children
       this.setData({
-        leftMenuList,
-        rightContent
+        leftMenuList:this.Cates,
+        rightContent:this.Cates
       })
     })
   }

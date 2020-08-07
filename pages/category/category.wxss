@@ -1,1 +1,41 @@
 /* pages/category/category.wxss */
+page{
+  height: 100%;
+}
+
+.cates{
+  height: 100%;
+}
+
+.cates_container{
+  height: calc(100vh - 90rpx);
+  display: flex;
+}
+.left_menu{
+  flex: 2;
+}
+.menu_item{
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.right_content{
+  flex: 5;
+}
+
+.goods_group goods_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.goods_group navigate{
+  width: 33.33%;
+}
+
+.goods_group navigate image{
+  width: 100%;
+  
+}

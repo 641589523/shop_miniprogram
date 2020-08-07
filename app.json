@@ -2,7 +2,7 @@
   "pages":[
     "pages/category/category",
     "pages/index/index",
-    
+
     "pages/goods_list/goods_list",
     "pages/goods_detail/goods_detail",
     "pages/cart/cart",
